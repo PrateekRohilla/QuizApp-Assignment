@@ -26,3 +26,24 @@
   padding: 1.5rem;
 }
 
+/* head display */
+#hud {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+/* option color */
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
