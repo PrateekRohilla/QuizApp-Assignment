@@ -21,11 +21,6 @@ h1 {
   margin-bottom: 10rem;
 }
 
-h1 > span {
-  font-size: 2.4rem;
-  font-weight: 500;
-}
-
 h2 {
   font-size: 4.2rem;
   margin-bottom: 4rem;
@@ -86,8 +81,4 @@ h3 {
   cursor: pointer;
   border: 1px solid black;
   box-shadow: 0 0.4rem 1.4rem 0 rgb(250, 250, 250,0.5);
-}
-
-.btn[disabled]:hover {
-  cursor: not-allowed;
 }
